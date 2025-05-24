@@ -1,0 +1,10 @@
+.text-card{
+	display: inline-block;
+	width: 40%;
+
+	/* display: block;
+	margin: auto; */
+}
+img{
+	width: 30%;
+}
