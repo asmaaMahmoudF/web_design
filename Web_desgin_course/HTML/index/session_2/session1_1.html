@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Registration Form</h1>
+	<form>
+		<label>User iid :   :</label>
+		<input type="text" required minlength="5" maxlength="12"> 
+		<br>
+		<br>
+		<label>Password:</label>
+		<input type="password" name="namePassword" required minlength="7" maxlength="12">
+		<br>
+		<br>
+		<label>Nameeee  : </label>
+		<input type="text" pattern="[A-Za-z]" required name="person-name" placeholder="Enter your name">
+		<br>
+		<br>
+		<label>Addresss : </label>
+		<input type="text" name="name-address">
+		<br>
+		<br>
+		<label>Countrry : </label>
+		<select name="country">
+			<option selected disabled>(Please choose a country)</option>
+			<option value="0">cairo</option>
+			<option value="0">Giza</option>
+			<option value="0">Alx</option>
+		</select>
+		<br>
+		<br>
+		<label>ZIP Code : </label>
+		<input type="number" required>
+		<br>
+		<br>
+		<label>Emailllll  : </label>
+		<input type="email" required placeholder="Email">
+		<br>
+		<br>
+		<label>Sex</label>
+		<input type="radio"  name="gender"><span>Male</span>
+		<input type="radio"  name="gender"><span>Female</span>
+		<br>
+		<br>
+		<label>Language</label>
+		<input type="checkbox" required><span>English</span>
+		<input type="checkbox"><span>Non English</span>
+		<br>
+		<br>
+		<label>About : </label>
+		<br>
+		<br>
+		<textarea name="TextArea" placeholder="write your hobbies" rows="10" cols="30"></textarea>
+		<br>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
